@@ -1,0 +1,10 @@
+What is a Controller?
+
+-> A Java class
+-> Marked with annotations
+-> Has info about 
+    a. What URL access triggers it?
+    b. What method to run when accessed?
+
+What is autowired?
+-> Autowired is a Spring annotation that marks something that needs dependency injection

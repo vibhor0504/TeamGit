@@ -1,0 +1,5 @@
+What are Service class? or Business Service?
+
+* Business service are singeltons in Spiring
+* When the applns starts up, spring creates an instance of this class in its memory
+* Other classes and services depends on this business service class
