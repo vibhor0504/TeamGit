@@ -1,8 +1,15 @@
 package io.sboot.vers.mgtut.Model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
+//With this entity annotation, JPA knows to create a table in the db
+//with the three columns mentioned as class variable
 public class Topic {
     
-    private String id;
+    @Id
+    private String id; //ID annotation makes id as the primary key of the table
     private String name;
     private String desciption;
 

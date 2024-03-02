@@ -27,7 +27,7 @@ public class TopicController {
     @RequestMapping("/topics/{id}")
     //{} -> variable portion
     public Topic geTopic(@PathVariable String id) { //PathVariable tells  spring that the id from URI needs to be passed to the method
-        return topicService.geTopic(id);
+        return topicService.getTopic(id);
     }
 
     @RequestMapping(method = RequestMethod.POST, value = "/topics")
