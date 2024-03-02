@@ -1,0 +1,10 @@
+io\sboot\vers\mgtut\Controller\HelloController.class
+io\sboot\vers\mgtut\Controller\TopicController.class
+io\sboot\vers\mgtut\Repository\TopicRepository.class
+io\sboot\vers\mgtut\Model\Topic.class
+io\sboot\vers\mgtut\Model\Course.class
+io\sboot\vers\mgtut\Service\CourseService.class
+io\sboot\vers\mgtut\MgtutApplication.class
+io\sboot\vers\mgtut\Repository\CourseRepository.class
+io\sboot\vers\mgtut\Controller\CourseController.class
+io\sboot\vers\mgtut\Service\TopicService.class
